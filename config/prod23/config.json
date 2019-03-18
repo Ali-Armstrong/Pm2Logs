@@ -1,16 +1,14 @@
 {
   "googleAuth" : {
-    "clientID"      : "344306484804-lc5ccsfn852clmahcus9ijadf3s9p2v2.apps.googleusercontent.com",
-    "clientSecret"  : "mgvtWTaOomhOKcjqvaWYZlxT",
-    "callbackURL"   : "http://logs23.way2target.com/auth/google/callback"
+    "clientID"      : "id",
+    "clientSecret"  : "secret",
+    "callbackURL"   : "urls"
   },
   "Authentication":{
     "username":"test",
     "password":"test"
   },
-  "AccessEmails":["mahamdali.s@way2online.co.in","kameswararao.n@way2online.com","bhaskar.v@way2online.co.in","sairam.p@way2online.co.in","sowjanya.k@way2online.co.in","vathsalya.k@way2online.co.in",
-    "shivakumar.p@way2online.co.in","prudhviraj.l@way2online.co.in","sravani.y@way2online.co.in","vijay.n@way2online.co.in","subhashini.ch@way2online.co.in","chandrakanth.j@way2online.co.in",
-    "bharathi.t@way2online.co.in"],
+  "AccessEmails":["email id1","email id2"],
   "AllowCommands":{
     "pm2":["l","logs","restart","stop","desc"],
     "cat":"/home/harsha/.pm2/",
