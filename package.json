@@ -1,0 +1,30 @@
+{
+  "name": "pm2logs",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "pm2_logs_test": "node app.js test",
+    "pm2_logs_prod_23": "node app.js prod23",
+    "pm2_logs_prod_25": "node app.js prod25",
+    "pm2_logs_prod_27": "node app.js prod27",
+    "pm2_logs_prod_140": "node app.js prod140"
+  },
+  "dependencies": {
+    "body-parser": "~1.18.2",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "ejs": "~2.5.7",
+    "express": "~4.15.5",
+    "express-session": "^1.15.6",
+    "https-proxy-agent": "^2.2.1",
+    "logger": "0.0.1",
+    "morgan": "~1.9.0",
+    "passport": "^0.4.0",
+    "passport-google-oauth2": "^0.1.6",
+    "sanitizer": "^0.1.3",
+    "socket.io": "^2.0.4",
+    "tracer": "^0.8.11",
+    "tree-kill": "^1.2.0"
+  }
+}

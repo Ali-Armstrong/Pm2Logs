@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head>
+  <title>login</title>
+  <link rel="icon" href="./images/export.png" type="image/gif" sizes="16x16">
+  <STYLE>
+
+    body
+    {
+      background-image: url("./images/bg1.jpg");
+    }
+    #icon{
+      max-height: 10%;
+      max-width: 10%;
+    }
+    #gSignInWrapper{
+      background: white;
+      padding:2%;
+      width: 30%;
+      align-self: center;
+      margin-top:12%;
+      box-shadow:2px 2px 2px 2px #CBCBED;
+      border-radius: 2%;
+    }
+    .text{
+      text-align: center;
+      color: #444444;
+    }
+    #customBtn {
+      display: inline-block;
+      background: linear-gradient(to left, #fc4a1a, #f7b733);
+      color: #444;
+      margin-top:10%;
+      width: 100%;
+     /* width: 150%;*/
+      border-radius: 5px;
+      border: thin solid #888;
+      box-shadow: 1px 1px 1px grey;
+    }
+    #customBtn:hover {
+      cursor: pointer;
+    }
+    span.label {
+      font-family: serif;
+      font-weight: normal;
+    }
+    span.buttonText {
+      display: inline-block;
+      padding: 15px;
+      font-size: 14px;
+      font-weight: bold;
+      font-family: 'Times New Roman';
+      color: #FFFFFF;
+      font-weight: bold;
+
+    }
+    .logo{
+      border-radius: 100px;
+      box-shadow: 1px 1px 1px 1px grey;
+    }
+
+  </STYLE>
+</head>
+<body>
+<center>
+  <div id="gSignInWrapper">
+    <img class="logo" src="./images/export.png" alt="logo" width="30%" height="30%">
+    <h2 class="text">Sign in with Way2Online</h2>
+    <div id="customBtn" class="customGPlusSignIn">
+      <a href="/auth/google"><span class="buttonText">Sign in with gmail</span></a>
+    </div>
+  </div>
+  <br>
+  <br>
+  <span style="color: rgb(233,105,15)"><strong><%= message %></strong></span>
+</center>
+</body>
+</html>
